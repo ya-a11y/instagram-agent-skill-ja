@@ -9,6 +9,13 @@ description: >-
 
 # ig-caption
 
+> **アカウントが複数ある場合:** `~/.claude/instagram/accounts/` にフォルダがあれば、
+> 最初に、どのアカウントの作業かを決める。ユーザーがアカウント名を言っていればそれを使う。
+> 言っていなければ、フォルダの一覧を見せて1回だけ聞く。決まったら、この手順に出てくる
+> `~/.claude/instagram/〇〇`（voice.md・swipe.md・log.md・plan.md など）は、すべて
+> `~/.claude/instagram/accounts/<アカウント>/〇〇` と読み替える。ほかのアカウントの
+> ファイルは読まないし、書かない。
+
 このフォルダには、動く道具が1つある。
 
 ```bash
