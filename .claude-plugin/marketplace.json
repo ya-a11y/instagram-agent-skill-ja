@@ -11,7 +11,7 @@
       "description": "インスタを回す Claude のスキル13個（日本語版）。採点つきのフック、バズのリサーチ、キャプションの検査、AIっぽさ消しを含む。",
       "source": "./",
       "category": "productivity",
-      "homepage": "https://github.com/Alman-creator-uslog/instagram-agent-skill-ja"
+      "homepage": "https://github.com/ya-a11y/instagram-agent-skill-ja"
     }
   ]
 }

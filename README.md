@@ -23,7 +23,7 @@
 Claude Code に、次の文をそのまま貼ってください。
 
 ```
-https://github.com/Alman-creator-uslog/instagram-agent-skill-ja
+https://github.com/ya-a11y/instagram-agent-skill-ja
 
 このスキルを入れて、/ig-reel が動くか確かめて。
 ```
@@ -31,7 +31,7 @@ https://github.com/Alman-creator-uslog/instagram-agent-skill-ja
 自分でコマンドを打って入れる場合（Mac・Linux）:
 
 ```bash
-git clone https://github.com/Alman-creator-uslog/instagram-agent-skill-ja.git
+git clone https://github.com/ya-a11y/instagram-agent-skill-ja.git
 mkdir -p ~/.claude/skills
 cp -r instagram-agent-skill-ja/skills/ig-* ~/.claude/skills/
 ```
@@ -39,7 +39,7 @@ cp -r instagram-agent-skill-ja/skills/ig-* ~/.claude/skills/
 Windows（PowerShell）の場合:
 
 ```powershell
-git clone https://github.com/Alman-creator-uslog/instagram-agent-skill-ja.git
+git clone https://github.com/ya-a11y/instagram-agent-skill-ja.git
 New-Item -ItemType Directory -Force "$env:USERPROFILE\.claude\skills" | Out-Null
 Copy-Item -Recurse instagram-agent-skill-ja\skills\ig-* $env:USERPROFILE\.claude\skills\
 ```
@@ -47,7 +47,7 @@ Copy-Item -Recurse instagram-agent-skill-ja\skills\ig-* $env:USERPROFILE\.claude
 プラグインとして入れる場合:
 
 ```
-/plugin marketplace add Alman-creator-uslog/instagram-agent-skill-ja
+/plugin marketplace add ya-a11y/instagram-agent-skill-ja
 /plugin install instagram-agent-ja
 ```
 
